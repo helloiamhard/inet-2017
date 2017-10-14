@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Здравствуйте!</title>
+  <style> .hide {
+  display:none;
+  }
+  </style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ </head>
+<body>
+	<h3> Квасняк А. В. </h3>
+	<div id="toggle" class="hide"> Персональная страница </div>
+	<button onclick="show_div('toggle')"> Нажмите </button>
+	<script> 
+	function show_div(id)
+	{
+	$("#" +id).show()
+	}	</script>
+</body>
